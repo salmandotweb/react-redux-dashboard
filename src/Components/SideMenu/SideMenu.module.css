@@ -17,3 +17,13 @@
 .active {
   background: #eee;
 }
+@media screen and (max-width: 900px) {
+  .sideMenu {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 828px) {
+  .sideMenu {
+    display: none;
+  }
+}

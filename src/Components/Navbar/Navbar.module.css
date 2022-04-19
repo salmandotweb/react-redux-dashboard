@@ -67,3 +67,11 @@
   object-fit: cover;
   border-radius: 50%;
 }
+@media screen and (max-width: 900px) {
+  .navLinks {
+    display: none;
+  }
+  .icon {
+    display: none;
+  }
+}
